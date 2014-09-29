@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636ED7A919D9EBF2008FC045 /* RedHotChiliPeppers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636ED7A819D9EBF2008FC045 /* RedHotChiliPeppers.jpg */; };
+		636ED7AF19D9F7BF008FC045 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636ED7AE19D9F7BF008FC045 /* Images-2.xcassets */; };
+		63F323FC19D8C5DC00A9A7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F323FB19D8C5DC00A9A7BF /* Foundation.framework */; };
+		63F323FE19D8C5DD00A9A7BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F323FD19D8C5DD00A9A7BF /* CoreGraphics.framework */; };
+		63F3240019D8C5DD00A9A7BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F323FF19D8C5DD00A9A7BF /* UIKit.framework */; };
+		63F3240619D8C5DD00A9A7BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F3240419D8C5DD00A9A7BF /* InfoPlist.strings */; };
+		63F3240819D8C5DD00A9A7BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3240719D8C5DD00A9A7BF /* main.m */; };
+		63F3240C19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3240B19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.m */; };
+		63F3240F19D8C5DD00A9A7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F3240D19D8C5DD00A9A7BF /* Main.storyboard */; };
+		63F3241219D8C5DD00A9A7BF /* MyFavBandsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3241119D8C5DD00A9A7BF /* MyFavBandsMasterViewController.m */; };
+		63F3241519D8C5DD00A9A7BF /* MyFavBandsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3241419D8C5DD00A9A7BF /* MyFavBandsDetailViewController.m */; };
+		63F3241719D8C5DD00A9A7BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F3241619D8C5DD00A9A7BF /* Images.xcassets */; };
+		63F3241E19D8C5DD00A9A7BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F3241D19D8C5DD00A9A7BF /* XCTest.framework */; };
+		63F3241F19D8C5DD00A9A7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F323FB19D8C5DC00A9A7BF /* Foundation.framework */; };
+		63F3242019D8C5DD00A9A7BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F323FF19D8C5DD00A9A7BF /* UIKit.framework */; };
+		63F3242819D8C5DD00A9A7BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F3242619D8C5DD00A9A7BF /* InfoPlist.strings */; };
+		63F3242A19D8C5DD00A9A7BF /* MyFavBandsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F3242919D8C5DD00A9A7BF /* MyFavBandsTests.m */; };
+		63F3243519D9115F00A9A7BF /* beatles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243419D9115F00A9A7BF /* beatles.jpg */; };
+		63F3243719D9118F00A9A7BF /* bonjovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243619D9118F00A9A7BF /* bonjovi.jpg */; };
+		63F3243919D911A800A9A7BF /* creed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243819D911A800A9A7BF /* creed.jpg */; };
+		63F3243D19D914AC00A9A7BF /* eagles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243A19D914AC00A9A7BF /* eagles.jpg */; };
+		63F3243E19D914AC00A9A7BF /* falloutboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243B19D914AC00A9A7BF /* falloutboy.jpg */; };
+		63F3243F19D914AC00A9A7BF /* greenday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3243C19D914AC00A9A7BF /* greenday.jpg */; };
+		63F3244119D914DA00A9A7BF /* mychemicalromance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3244019D914DA00A9A7BF /* mychemicalromance.jpg */; };
+		63F3244519D9150D00A9A7BF /* nirvana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3244219D9150D00A9A7BF /* nirvana.jpg */; };
+		63F3244619D9150D00A9A7BF /* paramore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3244319D9150D00A9A7BF /* paramore.jpg */; };
+		63F3244719D9150D00A9A7BF /* pinkfloyd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F3244419D9150D00A9A7BF /* pinkfloyd.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F3242119D8C5DD00A9A7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F323F019D8C5DC00A9A7BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F323F719D8C5DC00A9A7BF;
+			remoteInfo = MyFavBands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636ED7A819D9EBF2008FC045 /* RedHotChiliPeppers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RedHotChiliPeppers.jpg; path = ../../RedHotChiliPeppers.jpg; sourceTree = "<group>"; };
+		636ED7AE19D9F7BF008FC045 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		63F323F819D8C5DC00A9A7BF /* MyFavBands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavBands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F323FB19D8C5DC00A9A7BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63F323FD19D8C5DD00A9A7BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F323FF19D8C5DD00A9A7BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63F3240319D8C5DD00A9A7BF /* MyFavBands-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavBands-Info.plist"; sourceTree = "<group>"; };
+		63F3240519D8C5DD00A9A7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F3240719D8C5DD00A9A7BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F3240919D8C5DD00A9A7BF /* MyFavBands-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFavBands-Prefix.pch"; sourceTree = "<group>"; };
+		63F3240A19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsAppDelegate.h; sourceTree = "<group>"; };
+		63F3240B19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsAppDelegate.m; sourceTree = "<group>"; };
+		63F3240E19D8C5DD00A9A7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F3241019D8C5DD00A9A7BF /* MyFavBandsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsMasterViewController.h; sourceTree = "<group>"; };
+		63F3241119D8C5DD00A9A7BF /* MyFavBandsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsMasterViewController.m; sourceTree = "<group>"; };
+		63F3241319D8C5DD00A9A7BF /* MyFavBandsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsDetailViewController.h; sourceTree = "<group>"; };
+		63F3241419D8C5DD00A9A7BF /* MyFavBandsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsDetailViewController.m; sourceTree = "<group>"; };
+		63F3241619D8C5DD00A9A7BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63F3241C19D8C5DD00A9A7BF /* MyFavBandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavBandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F3241D19D8C5DD00A9A7BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63F3242519D8C5DD00A9A7BF /* MyFavBandsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavBandsTests-Info.plist"; sourceTree = "<group>"; };
+		63F3242719D8C5DD00A9A7BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F3242919D8C5DD00A9A7BF /* MyFavBandsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsTests.m; sourceTree = "<group>"; };
+		63F3243419D9115F00A9A7BF /* beatles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beatles.jpg; path = ../../beatles.jpg; sourceTree = "<group>"; };
+		63F3243619D9118F00A9A7BF /* bonjovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bonjovi.jpg; path = ../../bonjovi.jpg; sourceTree = "<group>"; };
+		63F3243819D911A800A9A7BF /* creed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creed.jpg; path = ../../creed.jpg; sourceTree = "<group>"; };
+		63F3243A19D914AC00A9A7BF /* eagles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eagles.jpg; path = ../../eagles.jpg; sourceTree = "<group>"; };
+		63F3243B19D914AC00A9A7BF /* falloutboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = falloutboy.jpg; path = ../../falloutboy.jpg; sourceTree = "<group>"; };
+		63F3243C19D914AC00A9A7BF /* greenday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greenday.jpg; path = ../../greenday.jpg; sourceTree = "<group>"; };
+		63F3244019D914DA00A9A7BF /* mychemicalromance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mychemicalromance.jpg; path = ../../mychemicalromance.jpg; sourceTree = "<group>"; };
+		63F3244219D9150D00A9A7BF /* nirvana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nirvana.jpg; path = ../../nirvana.jpg; sourceTree = "<group>"; };
+		63F3244319D9150D00A9A7BF /* paramore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paramore.jpg; path = ../../paramore.jpg; sourceTree = "<group>"; };
+		63F3244419D9150D00A9A7BF /* pinkfloyd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pinkfloyd.jpg; path = ../../pinkfloyd.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F323F519D8C5DC00A9A7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F323FE19D8C5DD00A9A7BF /* CoreGraphics.framework in Frameworks */,
+				63F3240019D8C5DD00A9A7BF /* UIKit.framework in Frameworks */,
+				63F323FC19D8C5DC00A9A7BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3241919D8C5DD00A9A7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3241E19D8C5DD00A9A7BF /* XCTest.framework in Frameworks */,
+				63F3242019D8C5DD00A9A7BF /* UIKit.framework in Frameworks */,
+				63F3241F19D8C5DD00A9A7BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636ED7AA19D9ED95008FC045 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		63F323EF19D8C5DC00A9A7BF = {
+			isa = PBXGroup;
+			children = (
+				63F3240119D8C5DD00A9A7BF /* MyFavBands */,
+				63F3242319D8C5DD00A9A7BF /* MyFavBandsTests */,
+				63F323FA19D8C5DC00A9A7BF /* Frameworks */,
+				63F323F919D8C5DC00A9A7BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F323F919D8C5DC00A9A7BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F323F819D8C5DC00A9A7BF /* MyFavBands.app */,
+				63F3241C19D8C5DD00A9A7BF /* MyFavBandsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F323FA19D8C5DC00A9A7BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F323FB19D8C5DC00A9A7BF /* Foundation.framework */,
+				63F323FD19D8C5DD00A9A7BF /* CoreGraphics.framework */,
+				63F323FF19D8C5DD00A9A7BF /* UIKit.framework */,
+				63F3241D19D8C5DD00A9A7BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63F3240119D8C5DD00A9A7BF /* MyFavBands */ = {
+			isa = PBXGroup;
+			children = (
+				636ED7AA19D9ED95008FC045 /* iPad */,
+				63F3243319D90B9D00A9A7BF /* Photos */,
+				63F3240A19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.h */,
+				63F3240B19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.m */,
+				63F3240D19D8C5DD00A9A7BF /* Main.storyboard */,
+				63F3241019D8C5DD00A9A7BF /* MyFavBandsMasterViewController.h */,
+				63F3241119D8C5DD00A9A7BF /* MyFavBandsMasterViewController.m */,
+				63F3241319D8C5DD00A9A7BF /* MyFavBandsDetailViewController.h */,
+				63F3241419D8C5DD00A9A7BF /* MyFavBandsDetailViewController.m */,
+				63F3241619D8C5DD00A9A7BF /* Images.xcassets */,
+				636ED7AE19D9F7BF008FC045 /* Images-2.xcassets */,
+				63F3240219D8C5DD00A9A7BF /* Supporting Files */,
+			);
+			path = MyFavBands;
+			sourceTree = "<group>";
+		};
+		63F3240219D8C5DD00A9A7BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F3240319D8C5DD00A9A7BF /* MyFavBands-Info.plist */,
+				63F3240419D8C5DD00A9A7BF /* InfoPlist.strings */,
+				63F3240719D8C5DD00A9A7BF /* main.m */,
+				63F3240919D8C5DD00A9A7BF /* MyFavBands-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F3242319D8C5DD00A9A7BF /* MyFavBandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F3242919D8C5DD00A9A7BF /* MyFavBandsTests.m */,
+				63F3242419D8C5DD00A9A7BF /* Supporting Files */,
+			);
+			path = MyFavBandsTests;
+			sourceTree = "<group>";
+		};
+		63F3242419D8C5DD00A9A7BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F3242519D8C5DD00A9A7BF /* MyFavBandsTests-Info.plist */,
+				63F3242619D8C5DD00A9A7BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F3243319D90B9D00A9A7BF /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				636ED7A819D9EBF2008FC045 /* RedHotChiliPeppers.jpg */,
+				63F3244219D9150D00A9A7BF /* nirvana.jpg */,
+				63F3244319D9150D00A9A7BF /* paramore.jpg */,
+				63F3244419D9150D00A9A7BF /* pinkfloyd.jpg */,
+				63F3244019D914DA00A9A7BF /* mychemicalromance.jpg */,
+				63F3243A19D914AC00A9A7BF /* eagles.jpg */,
+				63F3243B19D914AC00A9A7BF /* falloutboy.jpg */,
+				63F3243C19D914AC00A9A7BF /* greenday.jpg */,
+				63F3243819D911A800A9A7BF /* creed.jpg */,
+				63F3243619D9118F00A9A7BF /* bonjovi.jpg */,
+				63F3243419D9115F00A9A7BF /* beatles.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F323F719D8C5DC00A9A7BF /* MyFavBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3242D19D8C5DD00A9A7BF /* Build configuration list for PBXNativeTarget "MyFavBands" */;
+			buildPhases = (
+				63F323F419D8C5DC00A9A7BF /* Sources */,
+				63F323F519D8C5DC00A9A7BF /* Frameworks */,
+				63F323F619D8C5DC00A9A7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavBands;
+			productName = MyFavBands;
+			productReference = 63F323F819D8C5DC00A9A7BF /* MyFavBands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F3241B19D8C5DD00A9A7BF /* MyFavBandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3243019D8C5DD00A9A7BF /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */;
+			buildPhases = (
+				63F3241819D8C5DD00A9A7BF /* Sources */,
+				63F3241919D8C5DD00A9A7BF /* Frameworks */,
+				63F3241A19D8C5DD00A9A7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F3242219D8C5DD00A9A7BF /* PBXTargetDependency */,
+			);
+			name = MyFavBandsTests;
+			productName = MyFavBandsTests;
+			productReference = 63F3241C19D8C5DD00A9A7BF /* MyFavBandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F323F019D8C5DC00A9A7BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyFavBands;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maria Vergel De Dios";
+				TargetAttributes = {
+					63F3241B19D8C5DD00A9A7BF = {
+						TestTargetID = 63F323F719D8C5DC00A9A7BF;
+					};
+				};
+			};
+			buildConfigurationList = 63F323F319D8C5DC00A9A7BF /* Build configuration list for PBXProject "MyFavBands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F323EF19D8C5DC00A9A7BF;
+			productRefGroup = 63F323F919D8C5DC00A9A7BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F323F719D8C5DC00A9A7BF /* MyFavBands */,
+				63F3241B19D8C5DD00A9A7BF /* MyFavBandsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F323F619D8C5DC00A9A7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3241719D8C5DD00A9A7BF /* Images.xcassets in Resources */,
+				63F3240619D8C5DD00A9A7BF /* InfoPlist.strings in Resources */,
+				63F3243719D9118F00A9A7BF /* bonjovi.jpg in Resources */,
+				636ED7AF19D9F7BF008FC045 /* Images-2.xcassets in Resources */,
+				636ED7A919D9EBF2008FC045 /* RedHotChiliPeppers.jpg in Resources */,
+				63F3243D19D914AC00A9A7BF /* eagles.jpg in Resources */,
+				63F3243919D911A800A9A7BF /* creed.jpg in Resources */,
+				63F3244519D9150D00A9A7BF /* nirvana.jpg in Resources */,
+				63F3243F19D914AC00A9A7BF /* greenday.jpg in Resources */,
+				63F3244719D9150D00A9A7BF /* pinkfloyd.jpg in Resources */,
+				63F3243519D9115F00A9A7BF /* beatles.jpg in Resources */,
+				63F3244119D914DA00A9A7BF /* mychemicalromance.jpg in Resources */,
+				63F3243E19D914AC00A9A7BF /* falloutboy.jpg in Resources */,
+				63F3244619D9150D00A9A7BF /* paramore.jpg in Resources */,
+				63F3240F19D8C5DD00A9A7BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3241A19D8C5DD00A9A7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3242819D8C5DD00A9A7BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F323F419D8C5DC00A9A7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3241519D8C5DD00A9A7BF /* MyFavBandsDetailViewController.m in Sources */,
+				63F3241219D8C5DD00A9A7BF /* MyFavBandsMasterViewController.m in Sources */,
+				63F3240819D8C5DD00A9A7BF /* main.m in Sources */,
+				63F3240C19D8C5DD00A9A7BF /* MyFavBandsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3241819D8C5DD00A9A7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3242A19D8C5DD00A9A7BF /* MyFavBandsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F3242219D8C5DD00A9A7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F323F719D8C5DC00A9A7BF /* MyFavBands */;
+			targetProxy = 63F3242119D8C5DD00A9A7BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F3240419D8C5DD00A9A7BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F3240519D8C5DD00A9A7BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63F3240D19D8C5DD00A9A7BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F3240E19D8C5DD00A9A7BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F3242619D8C5DD00A9A7BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F3242719D8C5DD00A9A7BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F3242B19D8C5DD00A9A7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63F3242C19D8C5DD00A9A7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F3242E19D8C5DD00A9A7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63F3242F19D8C5DD00A9A7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63F3243119D8C5DD00A9A7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFavBands.app/MyFavBands";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFavBandsTests/MyFavBandsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63F3243219D8C5DD00A9A7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFavBands.app/MyFavBands";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBandsTests/MyFavBandsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F323F319D8C5DC00A9A7BF /* Build configuration list for PBXProject "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3242B19D8C5DD00A9A7BF /* Debug */,
+				63F3242C19D8C5DD00A9A7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F3242D19D8C5DD00A9A7BF /* Build configuration list for PBXNativeTarget "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3242E19D8C5DD00A9A7BF /* Debug */,
+				63F3242F19D8C5DD00A9A7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F3243019D8C5DD00A9A7BF /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3243119D8C5DD00A9A7BF /* Debug */,
+				63F3243219D8C5DD00A9A7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F323F019D8C5DC00A9A7BF /* Project object */;
+}
